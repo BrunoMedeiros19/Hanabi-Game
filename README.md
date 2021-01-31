@@ -1,9 +1,9 @@
 # Hanabi Game
 
+This program was made using *Dev-C++* and written in C language.
 
 ## Game Description
-
-This program was made using *Dev-C++* and written in C language. 
+ 
 Hanabi is a cooperative game, i.e. a game where the players **do not play against each other but
 work together towards a common goal.** In this case they are absent minded firework
 manufacturers who accidentally mixed up powders, fuses and rockets from a firework display.
