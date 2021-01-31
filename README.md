@@ -1,4 +1,4 @@
-# Hanabi Game
+# Hanabi Game :computer:
 
 This program was made using *Dev-C++* and written in C language.
 
