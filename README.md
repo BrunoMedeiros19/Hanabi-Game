@@ -14,14 +14,14 @@ coloured cards.
 
 ## Rules
 
--For each play the player has 3 options:
- -**Give one piece of information (Clue)**.
- -**Discard a card**.
- -**Play a card**.
--
--
--
--
+1. For each play the player has 3 options:
+   -**Give one piece of information (Clue)**.
+   -**Discard a card**.
+   -**Play a card**.
+2.
+3.
+4.
+5.
 
 ## Features
 
