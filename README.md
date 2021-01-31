@@ -26,10 +26,11 @@ coloured cards.
 
 - **`DONE`** UI Menu with multiple options.
 - **`DONE`** Hability to shuffle the deck and give random cards for each player.
-- **`IN PROGRESS`** Save System.
 - **`DONE`** Implementation of an bot system, where the bot can play with the player.
 - **`DONE`** Discard table to see which cards where discarded.
 - **`DONE`** Debug UI where you can disable in the code, this allows you too verify that the cards are being correctly selected and all the game works well! **Enable by default**
+- **`DONE`** Implementation of 2 files for color and geometric purposes for the game!
+- **`IN PROGRESS`** Save System.
 
 
 ### ***Have fun! :stuck_out_tongue_winking_eye:*** 
