@@ -18,18 +18,18 @@ coloured cards.
    - **Give one piece of information (Clue)**.
    - **Discard a card**.
    - **Play a card**.
-2.
-3.
-4.
-5.
+2. The player can't see his own cards.
+3. The player will start with ***8 avalaible clues and 3 lifes***.
+4. The player only see the bot cards.
 
 ## Features
 
-- **`DONE`** Generation of a random character matrix at each execution.
-- **`DONE`** Possibility to write in the ***.txt*** the words that we want to appear in the word search.
-- **`DONE`** Generation of words in three different forms: **Vertical**, **Horizontal** and **Diagonal**.
-- **`DONE`** Table with the words found at the moment.
-- **`DONE`** Multiple levels of difficulty.
+- **`DONE`** UI Menu with multiple options.
+- **`DONE`** Hability to shuffle the deck and give random cards for each player.
+- **`IN PROGRESS`** Save System.
+- **`DONE`** Implementation of an bot system, where the bot can play with the player.
+- **`DONE`** Discard table to see which cards where discarded.
+- **`DONE`** Debug UI where you can disable in the code, this allows you too verify that the cards are being correctly selected and all the game works well! **Enable by default**
 
 
 ### ***Have fun! :stuck_out_tongue_winking_eye:*** 
