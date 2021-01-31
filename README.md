@@ -28,7 +28,7 @@ coloured cards.
 - **`DONE`** Hability to shuffle the deck and give random cards for each player.
 - **`DONE`** Implementation of an bot system, where the bot can play with the player.
 - **`DONE`** Discard table to see which cards where discarded.
-- **`DONE`** Debug UI where you can disable in the code, this allows you too verify that the cards are being correctly selected and all the game works well! **Enable by default**
+- **`DONE`** Debug UI where you can enable in the code, this allows you too verify that the cards are being correctly selected and all the game works well! **Disabled by default.**
 - **`DONE`** Implementation of 2 files for color and geometric purposes for the game!
 - **`IN PROGRESS`** Save System.
 
