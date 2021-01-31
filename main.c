@@ -252,12 +252,15 @@ do
     	        get_card2(hand_player2, k);
     	        
 	        }
-	        gotoxy(0,0);
+	        
+			gotoxy(0,0);
 			setColor(15,0);
             showRectAt(0,0,75,7);
 			resetColor();
 			
-	        gotoxy(2,58);
+		
+			//DEBUG UI DISABLED
+	       /* gotoxy(2,58);
 			printf("*BARALHO DAS CORES*\n");
 			show_deck(deck_c);
 			gotoxy(2,60);
@@ -279,6 +282,7 @@ do
     	       printf(" %d ", hand_player2[k]);
     	       resetColor();
         	}
+        	*/
         	
         	print_hand();
         	print_table(5,5,table);
@@ -449,6 +453,7 @@ int Turn()
             showRectAt(0,0,75,7);
 			resetColor();
 			
+			/* DEBUG UI DISABLED
 	        gotoxy(2,58);
 			printf("*BARALHO DAS CORES*\n");
 			show_deck(deck_c);
@@ -471,6 +476,8 @@ int Turn()
     	       printf(" %d ", hand_player2[k]);
     	       resetColor();
         	}
+        	*/
+        	
         	print_hand();
         	print_table(5,5,table);
             //mostra os elementos graficos como  nº vida, nºpistas...
@@ -499,6 +506,7 @@ int Turn()
 			            showRectAt(0,0,75,7);
 						resetColor();
 						
+						/* DEBUG UI DISABLED
 				        gotoxy(2,58);
 						printf("*BARALHO DAS CORES*\n");
 						show_deck(deck_c);
@@ -521,6 +529,7 @@ int Turn()
 			    	       printf(" %d ", hand_player2[k]);
 			    	       resetColor();
 			        	}
+			        	*/
                 	 show_graph_elements();
                    	 show_discard(5,5,discard_table); 
                      print_hand(); 
@@ -550,6 +559,7 @@ int Turn()
 		            showRectAt(0,0,75,7);
 					resetColor();
 					
+					/* DEBUG UI DISABLED
 			        gotoxy(2,58);
 					printf("*BARALHO DAS CORES*\n");
 					show_deck(deck_c);
@@ -572,6 +582,8 @@ int Turn()
 		    	       printf(" %d ", hand_player2[k]);
 		    	       resetColor();
 		        	}
+		        	*/
+		        	
                 	 show_graph_elements();
                    	 show_discard(5,5,discard_table); 
                      print_hand();
@@ -592,6 +604,8 @@ int Turn()
 					setColor(15,0);
 		            showRectAt(0,0,75,7);
 					resetColor();
+					
+					/*DEBUG UI DISABLED
 					
 			        gotoxy(2,58);
 					printf("*BARALHO DAS CORES*\n");
@@ -615,6 +629,7 @@ int Turn()
 		    	       printf(" %d ", hand_player2[k]);
 		    	       resetColor();
 		        	}
+		        	*/
                 	 show_graph_elements();
                    	 show_discard(5,5,discard_table); 
                      print_hand();
@@ -634,6 +649,7 @@ int Turn()
             showRectAt(0,0,75,7);
 			resetColor();
 			
+			/* DEBUG UI DISABLED
 	        gotoxy(2,58);
 			printf("*BARALHO DAS CORES*\n");
 			show_deck(deck_c);
@@ -656,7 +672,8 @@ int Turn()
     	       printf(" %d ", hand_player2[k]);
     	       resetColor();
         	}
-
+			*/
+			
         	print_hand();
         	print_table(5,5,table);
 	        show_graph_elements();
@@ -870,6 +887,8 @@ show_graph_elements()
             printf("%d",shop_deck);
 	        resetColor();
 	        
+	        /*   ##DEBUG UI DISABLED##
+	        
 	        //mostra as pistas
 	        gotoxy(185,43);
 	        printf("** Pistas dadas **");
@@ -888,12 +907,14 @@ show_graph_elements()
 				resetColor();
 			}
 			
+			
 	        gotoxy(185,47);
 	        printf("** Pistas dadas **");
 	        gotoxy(180,48);
 	        printf("Pistas de Nº do JOGADOR:");
 	        gotoxy(180,49);
 	        printf("Pistas de Cº do JOGADOR:");
+	        
 	        
 	        for (i=0,a=0;i<5;a=a+2,i++)
 			{
@@ -909,6 +930,7 @@ show_graph_elements()
 		    setColor(15,0);
 			showRectAt(157,58,1,5);
 			resetColor();
+			*/
 }
 /*
 print_hand
@@ -2214,7 +2236,7 @@ play_card(int hand_player[], int deck_c[], int deck_n[],int index)
 			//Esta subrotina devolve um valor de 0 a 4 que é a posição da carta jogavel no baralho do bot
 			return_value = playable_card(deck_n,deck_c);			 
 			 gotoxy(1,8);
-			 printf("Valor de retorno: %d",return_value);
+			 //printf("Valor de retorno: %d",return_value);
 			 
 			 index_deck = return_value;
 			 
@@ -4216,6 +4238,8 @@ save_game()
 {
 	/*Nesta subrotina vai ser criado um ficheiro de texto onde vai escrever usando o fprintf
 	todas as variaveis globais naquele momento do jogo*/
+	//IN PROGRESS
+	
 	int i,j;
 	FILE *jp;
 	
