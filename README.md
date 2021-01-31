@@ -12,9 +12,16 @@ show becoming a disaster! The pyrotechnicians have to put together **5** firewor
 red, 1 blue, 1 yellow, 1 green***, by making series rising in number (1, 2, 3, 4, 5) with the same
 coloured cards.
 
+## Rules
 
-### ***Have fun! :stuck_out_tongue_winking_eye:*** 
-
+-For each play the player has 3 options:
+ -**Give one piece of information (Clue)**.
+ -**Discard a card**.
+ -**Play a card**.
+-
+-
+-
+-
 
 ## Features
 
@@ -23,5 +30,8 @@ coloured cards.
 - **`DONE`** Generation of words in three different forms: **Vertical**, **Horizontal** and **Diagonal**.
 - **`DONE`** Table with the words found at the moment.
 - **`DONE`** Multiple levels of difficulty.
+
+
+### ***Have fun! :stuck_out_tongue_winking_eye:*** 
 
 Thanks for reading! :smile:
