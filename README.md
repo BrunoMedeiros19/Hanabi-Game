@@ -15,9 +15,9 @@ coloured cards.
 ## Rules
 
 1. For each play the player has 3 options:
-   -**Give one piece of information (Clue)**.
-   -**Discard a card**.
-   -**Play a card**.
+   - **Give one piece of information (Clue)**.
+   - **Discard a card**.
+   - **Play a card**.
 2.
 3.
 4.
